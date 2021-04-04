@@ -154,3 +154,6 @@ export const HEROES: Hero[] = [
   { id: 3, name: 'Magneta' }
 ];
 ```
+## File Size: 
+
+Consider limiting files to 400 lines of code.
