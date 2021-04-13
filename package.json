@@ -10,6 +10,8 @@
   "author": "Rapid Engineering",
   "main": "lib/index.js",
   "scripts": {
+    "prepare": "npm run co:login",
+    "co:login": "aws codeartifact login --tool npm --repository rapid-frontend --domain rp-frontend --domain-owner 515451715086 --profile rapid-engineering",
     "test": "mocha tests --recursive"
   },
   "dependencies": {
