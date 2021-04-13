@@ -154,6 +154,7 @@ export const HEROES: Hero[] = [
   { id: 3, name: 'Magneta' }
 ];
 ```
+
 ## Small functions
 
 Do define small functions
@@ -174,3 +175,7 @@ Why?
 
 Why? 
 	Small functions help avoid hidden bugs that come with large functions that share variables with external scope, create unwanted closures, or unwanted coupling with dependencies.
+
+## File Size: 
+
+Consider limiting files to 400 lines of code.
