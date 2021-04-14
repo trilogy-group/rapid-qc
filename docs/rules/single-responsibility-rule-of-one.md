@@ -154,3 +154,28 @@ export const HEROES: Hero[] = [
   { id: 3, name: 'Magneta' }
 ];
 ```
+
+## Small functions
+
+Do define small functions
+
+Consider limiting to no more than 75 lines.
+
+Why? 
+	Small functions are easier to test, especially when they do one thing and serve one purpose.
+
+Why?	
+	Small functions promote reuse.
+
+Why? 
+	Small functions are easier to read.
+
+Why? 
+	Small functions are easier to maintain.
+
+Why? 
+	Small functions help avoid hidden bugs that come with large functions that share variables with external scope, create unwanted closures, or unwanted coupling with dependencies.
+
+## File Size: 
+
+Consider limiting files to 400 lines of code.
